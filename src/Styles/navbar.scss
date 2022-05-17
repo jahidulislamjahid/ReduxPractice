@@ -1,0 +1,17 @@
+@import "./Variables/variables.scss";
+
+.navigation {
+  display: flex;
+  background-color: rgb(59, 59, 59);
+  justify-content: flex-end;
+  button {
+    color: white;
+    background-color: $secondary-color;
+    border-radius: 10%;
+    border: none;
+    margin-right: 2rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
