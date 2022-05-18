@@ -1,24 +1,16 @@
 @import "./Variables/variables.scss";
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
-.App {
-  h1 {
-    color: $primary-color;
-    font-size: 2.5rem;
-    font-weight: 700;
-    text-align: center;
-    margin-bottom: 2rem;
-  }
-  p {
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-      sans-serif;
-    font-size: 1.5rem;
-    color: $secondary-color;
-    text-align: center;
-  }
+* {
+  box-sizing: border-box;
 }
 .body {
-  h1 {
-    color: $tertiary-color;
-    text-align: center;
-  }
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  // background-color: #f7f8fc;
+  font-family: "Roboto", sans-serif;
+  color: #10182f;
 }

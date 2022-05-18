@@ -1,0 +1,12 @@
+@import "./Variables/variables.scss";
+
+.readingList {
+  .readingBooks {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  h1,
+  h3 {
+    text-align: center;
+  }
+}

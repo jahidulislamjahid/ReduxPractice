@@ -11,7 +11,9 @@ const Navbar = () => {
             <Link to={'/readinglist'}>
                 <button>Reading List</button>
             </Link>
-            <button>Completed</button>
+            <Link to={'/finishedlist'}>
+                <button>Finished Lisst</button>
+            </Link>
         </div>
     );
 };
